@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const instance = Axios.create({
-  baseURL: "http://localhost:9000",
+  baseURL: "https://tinder121.herokuapp.com/",
 });
 
 export default instance;
